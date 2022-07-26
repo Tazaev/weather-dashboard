@@ -12,6 +12,24 @@
         <header class="container-fluid gradient text-center text-white p-2">
             <h1 class="font-weight-bold">Weather Dashboard</h1>
         </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2 class="mt-1 font-weight-bold">Search for a City:</h2>
+                    <div class="input-group mb-3">
+                        <input id="enter-city" type="text" class="form-control p-4 border-dark text-lg-left"
+                            placeholder="Enter a city" aria-label="Enter a city">
+                    </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary btnColor mb-3 p-2 w-100" type="button" id="search-button">Search
+                        </button>
+                    </div>
+                    <div class="input-group mb-3 border-bottom border-dark">
+                        <button class="btn btn-primary  btnColor mb-3 p-2 w-100" type="button" id="clear-history">Clear
+                            history</button>
+                    </div>
+                    <div id="history"></div>
+                </div>
   </body>
   <script src="./script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
