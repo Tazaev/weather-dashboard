@@ -12,6 +12,7 @@
         <header class="container-fluid gradient text-center text-white p-2">
             <h1 class="font-weight-bold">Weather Dashboard</h1>
         </header>
+    <!-- search bar here -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
@@ -30,6 +31,17 @@
                     </div>
                     <div id="history"></div>
                 </div>
+                <!-- weather content -->
+                <div class="col-lg-9">
+                    <div class="col-lg-13 card-body my-3 pl-2 d-none border border-dark" id="today-weather">
+                        <h3 id="city-name" class="city-name align-middle"></h3>
+                        <img id="current-pic" alt="">
+                        <p id="temperature"></p>
+                        <p id="wind-speed"></p>
+                        <p id="humidity"></p>
+                        <p id="UV-index"></p>
+                    </div>
+    
   </body>
   <script src="./script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
